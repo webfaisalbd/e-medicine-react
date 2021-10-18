@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Paracetamol",
+        "element": "Paracetamol",
+        "price": 10,
+        "description": "Paracetamol is indicated for fever, common cold and influenza, headache, toothache, earache, bodyache etc.",
+        "img": "https://i.ibb.co/3dYmNt7/paracetamol.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sergel",
+        "element": "Esomeprazole Magnesium Trihydrate",
+        "price": 45,
+        "description": "Esomeprazole is indicated to relieve from chronic heartburn symptoms and other symptoms associated with GERD.",
+        "img": "https://i.ibb.co/DwJBd3V/Sergel.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Cal-Coral-D",
+        "element": "Calcium Carbonate [Coral source] + Vitamin D3",
+        "price": 110,
+        "description": "This is indicated for the treatment & prevention of osteoporosis, osteomalacia, tetany, hypoparathyroidism, disorders of osteogenesis.",
+        "img": "https://i.ibb.co/LCnvRRb/cal-Coral-D.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dimerol",
+        "element": "Gliclazide",
+        "price": 80,
+        "description": "Gliclazide is a medicine that reduces blood sugar levels (oral antidiabetic medicine belonging to the sulphonylurea group).",
+        "img": "https://i.ibb.co/F6b7mMC/dimerol.png"
+    },
+    {
+        "id": 5,
+        "name": "Tuska",
+        "element": "Pseudoephedrine + Guaiphenasine + Triprolidine",
+        "price": 65,
+        "description": "This is indicated for the symptomatic relief of upper respiratory tract disorders accompanied by productive cough.",
+        "img": "https://i.ibb.co/q9B9WFq/tuska.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Seclo",
+        "element": "Omeprazole",
+        "price": 45,
+        "description": "Omeprazole is indicated for the treatment of- Gastric and duodenal ulcer.",
+        "img": "https://i.ibb.co/10nbBYW/Seclo.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pevisone",
+        "element": "Econazole Nitrate + Triamcinolone Acetonide",
+        "price": 55,
+        "description": "Econazole Nitrate & Triamcinolone Acetonide indicated for the treatment of: Eczematous Mycoses Psoriasis.",
+        "img": "https://i.ibb.co/GVXzPzw/Pevisone.jpg"
+    },
+    {
+        "id": 8,
+        "name": "MaxPro",
+        "element": "Esomeprazole Magnesium Trihydrate",
+        "price": 70,
+        "description": "Esomeprazole is indicated to relieve from chronic heartburn symptoms and other symptoms associated with GERD.",
+        "img": "https://i.ibb.co/vLWkCy9/maxPro.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Monas",
+        "element": "Montelukast Sodium",
+        "price": 160,
+        "description": "Omeprazole is indicated for the treatment of- Gastric and duodenal ulcer.",
+        "img": "https://i.ibb.co/WtHH2rg/monas.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Napa",
+        "element": "Paracetamol",
+        "price": 8,
+        "description": "Paracetamol is indicated for fever, common cold and influenza, headache, toothache etc.",
+        "img": "https://i.ibb.co/RC7JKjT/napa.jpg"
+    }
+]

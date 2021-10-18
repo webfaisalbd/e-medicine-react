@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Mr Jahangir",
+        "salary": 12000,
+        "area": "Mirpur",
+        "img": "https://i.ibb.co/k3qX4rr/delivery-Man1.png"
+    },
+    {
+        "id": 2,
+        "name": "Sergel",
+        "salary": 15000,
+        "area": "Dhanmondi",
+        "img": "https://i.ibb.co/CKRRzTT/delivery-Man2.png"
+    },
+    {
+        "id": 3,
+        "name": "Cal-Coral-D",
+        "salary": 11000,
+        "area": "Gulshan",
+        "img": "https://i.ibb.co/55nRPjx/delivery-Man3.jpg"
+    }
+
+]

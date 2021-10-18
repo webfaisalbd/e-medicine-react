@@ -2,15 +2,15 @@
     {
         "id": 1,
         "name": "Mr Jahangir",
-        "salary": 12000,
-        "area": "Mirpur",
+        "salary": 15000,
+        "area": "Dhanmondhi",
         "img": "https://i.ibb.co/k3qX4rr/delivery-Man1.png"
     },
     {
         "id": 2,
         "name": "Sergel",
-        "salary": 15000,
-        "area": "Dhanmondi",
+        "salary": 14500,
+        "area": "Mirpur",
         "img": "https://i.ibb.co/CKRRzTT/delivery-Man2.png"
     },
     {

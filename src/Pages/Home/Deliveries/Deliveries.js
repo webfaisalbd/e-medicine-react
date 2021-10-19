@@ -12,7 +12,7 @@ const Deliveries = () => {
             .then(data => setDeliveries(data.slice(0,6)));
     }, [])
     return (
-        <div>
+        <div id="deliveries">
             <h1>Our Delivery Heros</h1>
             <Row>
             {

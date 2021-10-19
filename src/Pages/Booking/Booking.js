@@ -34,8 +34,6 @@ const foundDetails= serviceDetails.find(singleService=>singleService.id===Number
                          <p class="card-text"><span className="fw-bold">Dosage:</span> {foundDetails?.dosage}</p>
                          <button className="btn btn-regular bg-success">Confirm Order</button>
 
-    
-    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
   </div>
   
 </div>

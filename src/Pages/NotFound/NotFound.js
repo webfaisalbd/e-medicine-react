@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 const NotFound = () => {
     return (
         <div>
-        {/* <img style={{ width: '100%' }} src="https://trustedrevie.ws/assets/screen_shots//404.jpg" alt="" />
-            <Link to="/"><button>Go Back</button>
-            </Link> */}
+        <img className="m-2" style={{ width: '50%' }} src="https://trustedrevie.ws/assets/screen_shots//404.jpg" alt="" />
+        <br />
+            <Link to="/home"><button className="btn btn-regular bg-success">Go Home</button>
+            </Link>
         </div>
     );
 };

@@ -19,8 +19,26 @@ const foundDetails= serviceDetails.find(singleService=>singleService.id===Number
 
     return (
         <div>
-            <p> {foundDetails?.name} </p>
-            <p> {foundDetails?.description} </p>
+
+            <div class="card text-center">
+
+                     <div class="card-header">
+                        <img src={foundDetails?.img} alt="" />
+                     </div>
+
+                    <div class="card-body bg-info">
+                         <h5 class="card-title">Product Name: {foundDetails?.name} </h5>
+                         <p class="card-text"><span className="fw-bold">Price:</span> {foundDetails?.price}tk</p>
+                         <p class="card-text"><span className="fw-bold">Brand:</span> {foundDetails?.brand}</p>
+                         <p class="card-text"><span className="fw-bold">Indications::</span> {foundDetails?.description}</p>
+                         <p class="card-text"><span className="fw-bold">Dosage:</span> {foundDetails?.dosage}</p>
+                         <button className="btn btn-regular bg-success">Confirm Order</button>
+
+    
+    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+  </div>
+  
+</div>
             
         </div>
     );

@@ -1,12 +1,13 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+
 
 
 
 const Footer = () => {
     return (
         <div>
-            <div className="footer-container bg-info mt-4">
+            <div className="footer-container bg-info">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5">
@@ -15,10 +16,6 @@ const Footer = () => {
                                 <p className="p-2">Stay Home, Stay safe</p>
                                 <p className="p-2">Vaccinate fast for covid-19</p>
                                 
-                                
-
-
-
                             </div>
                         </div>
                         <div className="col-md-2">

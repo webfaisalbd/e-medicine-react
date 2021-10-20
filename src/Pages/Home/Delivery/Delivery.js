@@ -21,9 +21,10 @@ const Delivery = ({delivery}) => {
                    </Card.Body>
                    <p>{area}</p>
 
-                <button className="btn btn-info">More Info</button>
+                
            
            </Card>
+           <button className="btn btn-info">More Info</button>
       </div>
     
   </Col>

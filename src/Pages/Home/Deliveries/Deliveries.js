@@ -9,7 +9,7 @@ const Deliveries = () => {
     useEffect(() => {
         fetch('deliveryMan.json')
             .then(res => res.json())
-            .then(data => setDeliveries(data.slice(0,6)));
+            .then(data => setDeliveries(data));
     }, [])
     return (
         <div id="deliveries">

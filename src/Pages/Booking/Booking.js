@@ -26,7 +26,7 @@ const foundDetails= serviceDetails.find(singleService=>singleService.id===Number
                         <img src={foundDetails?.img} alt="" />
                      </div>
 
-                    <div class="card-body bg-info">
+                    <div class="card-body text-info">
                          <h5 class="card-title">Product Name: {foundDetails?.name} </h5>
                          <p class="card-text"><span className="fw-bold">Price:</span> {foundDetails?.price}tk</p>
                          <p class="card-text"><span className="fw-bold">Brand:</span> {foundDetails?.brand}</p>

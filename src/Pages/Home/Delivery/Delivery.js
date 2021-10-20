@@ -11,7 +11,7 @@ const Delivery = ({delivery}) => {
     <Col sm={12} md={6} lg={4}>
       
         <div className="m-2 mb-3">
-            <Card className="mx-auto" style={{ width: "21rem",backgroundColor:"lightcyan"}}>
+            <Card className="mx-auto  shadow-lg" style={{ width: "21rem",backgroundColor:"lightcyan"}}>
                   <Card.Img variant="top" className="img-fluid p-2" src={img} />
                   <Card.Body className="my-1 py-1">
                         <Card.Title>{name}</Card.Title>

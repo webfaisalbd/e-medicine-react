@@ -7,7 +7,7 @@ const Covid = () => {
             <h2 className="mt-5 text-info">Covid 19 Vaccine Registration</h2>
             <p className="text-success">We provide Vaccine at low cost</p>
 
-            <Container>
+            <Container className="mb-2">
                 
                 <div className="row">
                     <div className="col-12 col-md-6">

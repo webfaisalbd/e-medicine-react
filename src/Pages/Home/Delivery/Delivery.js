@@ -11,7 +11,7 @@ const Delivery = ({delivery}) => {
     <Col sm={12} md={6} lg={4}>
       
         <div className="m-2">
-            <Card className="mx-auto pb-2" style={{ width: "21rem",backgroundColor:"lightcyan"}}>
+            <Card className="mx-auto" style={{ width: "21rem",backgroundColor:"lightcyan"}}>
                   <Card.Img variant="top" className="img-fluid p-2" src={img} />
                   <Card.Body className="my-1 py-1">
                         <Card.Title>{name}</Card.Title>
@@ -21,10 +21,10 @@ const Delivery = ({delivery}) => {
                    </Card.Body>
                    <p>{area}</p>
 
+                  <button className="btn btn-primary">More Info</button>
                 
-           
            </Card>
-           <button className="btn btn-info">More Info</button>
+           
       </div>
     
   </Col>

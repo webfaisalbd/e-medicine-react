@@ -26,7 +26,7 @@ const Header = () => {
         </Badge>
         </Nav.Link>
 
-                        <img style={{height:'50px',width:'50px',borderRadius:'50px'}} src={user.photoURL || 'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png'} alt="" />
+                        <img style={{height:'50px',width:'50px',borderRadius:'50px'}} src={user.photoURL || 'https://i.ibb.co/M5dq9cM/3images.png'} alt="" />
                         
                         {
                             user?.email ? <Button className="ms-3 bg-danger" onClick={logOut} variant="light">Logout</Button>  : <Nav.Link as={HashLink} to="/login">Login</Nav.Link>

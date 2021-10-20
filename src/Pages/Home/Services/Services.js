@@ -13,7 +13,7 @@ const Services = () => {
 
     return (
         <div id="services">
-            <h2>Our Top Products</h2>
+            <h2 className="mt-5 text-info">Our Top Services/Products</h2>
 
             <Row>
             {

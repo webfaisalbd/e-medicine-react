@@ -10,6 +10,8 @@ import Login from './Pages/Login/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Deliveries from './Pages/Home/Deliveries/Deliveries';
+import Signup from './Pages/Signup/Signup';
+import Covid from './Pages/Home/Covid/Covid';
 
 
 
@@ -37,6 +39,10 @@ function App() {
               <Route path="/deliveries">
               <Deliveries></Deliveries>
               </Route>
+
+              <Route path="/covid">
+              <Covid></Covid>
+              </Route>
             
               <PrivateRoute path="/booking/:serviceId">
                  <Booking></Booking>
@@ -45,6 +51,11 @@ function App() {
               <Route path="/login">
                  <Login></Login>
             </Route>
+
+            <Route path="/sign">
+              <Signup></Signup>
+            </Route>
+
             <Route path="*">
                  <NotFound></NotFound>
             </Route>

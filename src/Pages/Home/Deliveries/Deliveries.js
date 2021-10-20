@@ -13,7 +13,7 @@ const Deliveries = () => {
     }, [])
     return (
         <div id="deliveries">
-            <h1>Our Delivery Heros</h1>
+            <h1  className="mt-5 text-info">Our Delivery Heros</h1>
             <Row>
             {
                 deliveries.map(delivery=> <Delivery

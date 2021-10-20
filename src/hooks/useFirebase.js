@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider,signOut,onAuthStateChanged  } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider,signOut,onAuthStateChanged,createUserWithEmailAndPassword,signInWithEmailAndPassword  } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
 
@@ -9,6 +9,70 @@ const useFirebase = () => {
     const [user,setUser]= useState({});
     const [isLoading, setIsLoading] = useState(true);
     const auth= getAuth();
+
+    // --------------
+    const [error,setError] = useState('')
+    const [name,setName] = useState('')
+    const [email,setEmail] = useState('')
+    const [pass,setPass] = useState('')
+
+// ---------------------
+
+
+
+const handleName = e => {
+    setName(e.target.value)
+}
+const handleEmail = e => {
+    setEmail(e.target.value)
+}
+const handlePass = e => {
+    setPass(e.target.value)
+}
+
+
+// ------------------- 
+
+
+const signUpp = () => {
+    createUserWithEmailAndPassword(auth, email, pass)
+    .then((result) => {
+        const newUser = result.user
+        newUser.displayName = name
+        setUser(newUser)
+    })
+    .catch((error) => {
+        setError(error.message)
+    });
+}
+
+
+const loggIn = () => {
+    signInWithEmailAndPassword(auth, email, pass)
+        .then((result) => {
+            setUser(result.user)
+        })
+        .catch((error) => {
+            setError(error.message)
+        });
+}
+
+
+const signOutt = () => {
+    signOut(auth).then(() => {
+        setUser({})
+      }).catch((error) => {
+        setError(error.message)
+      });
+}
+
+
+
+
+    // ------------------
+
+
+    
 
 const signInUsingGoogle = () => {
     setIsLoading(true);
@@ -48,7 +112,10 @@ const logOut = () =>{
         user,
         isLoading,
         signInUsingGoogle,
-        logOut
+        logOut,
+        error,signOutt,handleName
+        ,handleEmail,handlePass,signUpp,loggIn
+
     }
 }
 
